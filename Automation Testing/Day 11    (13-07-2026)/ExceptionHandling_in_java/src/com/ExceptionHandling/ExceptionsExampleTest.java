@@ -1,0 +1,23 @@
+package com.ExceptionHandling;
+
+public class ExceptionsExampleTest {
+
+    public static void main(String[] args) {
+
+        Integer age = null;
+        String ageAsString;
+
+        try {
+            ageAsString = age.toString();
+        } catch (NullPointerException e) {
+            age = 18;
+            ageAsString = age.toString();
+        }
+
+        System.out.println(age);
+        System.out.println(ageAsString);
+
+        String yourAge = "You are " + age + " years old";
+        System.out.println(yourAge);
+    }
+}

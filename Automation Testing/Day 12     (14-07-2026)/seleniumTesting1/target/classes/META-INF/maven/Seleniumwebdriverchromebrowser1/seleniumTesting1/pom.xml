@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://w3.org"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://apache.org">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>Seleniumwebdriverchromebrowser1</groupId>
+	<artifactId>seleniumTesting1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Kuldeep architect</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.44.0</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+
+</project>

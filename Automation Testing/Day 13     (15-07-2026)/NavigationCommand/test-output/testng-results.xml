@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-15T23:11:26 IST" name="Default suite" finished-at="2026-07-15T23:12:42 IST" duration-ms="75325">
+    <groups>
+    </groups>
+    <test started-at="2026-07-15T23:11:26 IST" name="Default test" finished-at="2026-07-15T23:12:42 IST" duration-ms="75325">
+      <class name="NavigationTest.NavigationTest">
+        <test-method signature="NavigationBack2()[pri:0, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:11:26 IST" name="NavigationBack2" finished-at="2026-07-15T23:11:52 IST" duration-ms="25560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationBack2 -->
+        <test-method signature="NavigationBack3()[pri:0, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:11:52 IST" name="NavigationBack3" finished-at="2026-07-15T23:11:57 IST" duration-ms="5588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationBack3 -->
+        <test-method signature="NavigationForword2()[pri:0, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:11:57 IST" name="NavigationForword2" finished-at="2026-07-15T23:12:04 IST" duration-ms="6552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationForword2 -->
+        <test-method signature="NavigationForword3()[pri:0, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:04 IST" name="NavigationForword3" finished-at="2026-07-15T23:12:08 IST" duration-ms="4134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationForword3 -->
+        <test-method signature="NavigationRefresh2()[pri:0, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:08 IST" name="NavigationRefresh2" finished-at="2026-07-15T23:12:15 IST" duration-ms="6668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationRefresh2 -->
+        <test-method signature="NavigationRefresh3()[pri:0, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:15 IST" name="NavigationRefresh3" finished-at="2026-07-15T23:12:19 IST" duration-ms="4498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationRefresh3 -->
+        <test-method signature="edgeTest()[pri:0, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:19 IST" name="edgeTest" finished-at="2026-07-15T23:12:22 IST" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeTest -->
+        <test-method signature="firefoxTest()[pri:0, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:22 IST" name="firefoxTest" finished-at="2026-07-15T23:12:27 IST" duration-ms="4646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxTest -->
+        <test-method signature="chromeTest()[pri:1, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:27 IST" name="chromeTest" finished-at="2026-07-15T23:12:29 IST" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+        <test-method signature="NavigationBack()[pri:2, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:29 IST" name="NavigationBack" finished-at="2026-07-15T23:12:33 IST" duration-ms="3447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationBack -->
+        <test-method signature="NavigationForword()[pri:3, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:33 IST" name="NavigationForword" finished-at="2026-07-15T23:12:37 IST" duration-ms="4483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationForword -->
+        <test-method signature="NavigationRefresh()[pri:4, instance:NavigationTest.NavigationTest@128d2484]" started-at="2026-07-15T23:12:37 IST" name="NavigationRefresh" finished-at="2026-07-15T23:12:42 IST" duration-ms="4240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationRefresh -->
+      </class> <!-- NavigationTest.NavigationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

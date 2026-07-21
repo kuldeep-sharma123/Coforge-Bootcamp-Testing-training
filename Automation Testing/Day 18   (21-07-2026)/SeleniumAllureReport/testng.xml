@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Task70Assure.SetSizeAndPositionOfWindow"/>
+      <class name="WebdriverrComment.Browsercommands"/>
+      <class name="WebdriverrComment.CheckExpectedValue"/>
+      <class name="com.Task60.WebBrowserTest_LocatorId"/>
+      <class name="com.Task60.CaseStudy3"/>
+      <class name="com.Task60.CaseStudy4"/>
+      <class name="com.Task60.CaseStudy2"/>
+      <class name="com.Task60.CaseStudy7"/>
+      <class name="com.Task60.CaseStudy8"/>
+      <class name="com.Task60.CaseStudy5"/>
+      <class name="com.Task60.CaseStudy6"/>
+      <class name="WebdriverrComment.BrowserComment"/>
+      <class name="Task70Assure.BrowserCommands"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

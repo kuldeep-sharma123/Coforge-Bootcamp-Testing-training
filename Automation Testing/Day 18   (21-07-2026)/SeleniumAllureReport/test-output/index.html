@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Coforge Seleninium automation testiong\SeleniumAllureReport\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 2 failed,  1 skipped,  26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy6" class="method navigator-link" hash-for-method="chromeBrowserCommands">chromeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy7" class="method navigator-link" hash-for-method="headlessBrowserCommands">headlessBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy8" class="method navigator-link" hash-for-method="openCartTest">openCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebdriverrComment.CheckExpectedValue" class="method navigator-link" hash-for-method="ChromeBrowserTest">ChromeBrowserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebdriverrComment.BrowserComment" class="method navigator-link" hash-for-method="ChromeBrowserTest">ChromeBrowserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Task70Assure.SetSizeAndPositionOfWindow" class="method navigator-link" hash-for-method="EdgeBrowserCommands">EdgeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebdriverrComment.CheckExpectedValue" class="method navigator-link" hash-for-method="EdgeBrowserTest">EdgeBrowserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebdriverrComment.Browsercommands" class="method navigator-link" hash-for-method="EdgeBrowserTest">EdgeBrowserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Task70Assure.BrowserCommands" class="method navigator-link" hash-for-method="EdgeTest">EdgeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Task70Assure.SetSizeAndPositionOfWindow" class="method navigator-link" hash-for-method="FirefoxBrowserCommands">FirefoxBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebdriverrComment.Browsercommands" class="method navigator-link" hash-for-method="FirefoxBrowserTest">FirefoxBrowserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebdriverrComment.CheckExpectedValue" class="method navigator-link" hash-for-method="FirefoxBrowserTest">FirefoxBrowserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Task70Assure.BrowserCommands" class="method navigator-link" hash-for-method="FirefoxTest">FirefoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy3" class="method navigator-link" hash-for-method="chromeBrowserCommands">chromeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.WebBrowserTest_LocatorId" class="method navigator-link" hash-for-method="chromeBrowserCommands">chromeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy2" class="method navigator-link" hash-for-method="chromeBrowserCommands">chromeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy5" class="method navigator-link" hash-for-method="chromeBrowserCommands">chromeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy4" class="method navigator-link" hash-for-method="chromeBrowserCommands">chromeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Task70Assure.SetSizeAndPositionOfWindow" class="method navigator-link" hash-for-method="chromeBrowserCommands">chromeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Task70Assure.BrowserCommands" class="method navigator-link" hash-for-method="chromeTest">chromeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebdriverrComment.Browsercommands" class="method navigator-link" hash-for-method="chromebrowsertest">chromebrowsertest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy2" class="method navigator-link" hash-for-method="edgeBrowserCommands">edgeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy3" class="method navigator-link" hash-for-method="edgeBrowserCommands">edgeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy4" class="method navigator-link" hash-for-method="edgeBrowserCommands">edgeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.WebBrowserTest_LocatorId" class="method navigator-link" hash-for-method="edgeBrowserCommands">edgeBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy2" class="method navigator-link" hash-for-method="firefoxBrowserCommands">firefoxBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy4" class="method navigator-link" hash-for-method="firefoxBrowserCommands">firefoxBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.CaseStudy3" class="method navigator-link" hash-for-method="firefoxBrowserCommands">firefoxBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Task60.WebBrowserTest_LocatorId" class="method navigator-link" hash-for-method="firefoxBrowserCommands">firefoxBrowserCommands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Task60.CaseStudy7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="headlessBrowserCommands">
+                  </a> <!-- headlessBrowserCommands -->
+                  <span class="method-name">headlessBrowserCommands</span>
+                  <div class="stack-trace">java.nio.file.FileAlreadyExistsException: Screenshots\HeadlessHomePage.png
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:133)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:282)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at com.Task60.CaseStudy7.headlessBrowserCommands(CaseStudy7.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Task60.CaseStudy6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeBrowserCommands">
+                  </a> <!-- chromeBrowserCommands -->
+                  <span class="method-name">chromeBrowserCommands</span>
+                  <div class="stack-trace">java.nio.file.FileAlreadyExistsException: Screenshots\WebkulHomePage.png
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:133)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:282)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at com.Task60.CaseStudy6.chromeBrowserCommands(CaseStudy6.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.Task60.CaseStudy8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openCartTest">
+                  </a> <!-- openCartTest -->
+                  <span class="method-name">openCartTest</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in D:\Coforge Seleninium automation testiong\SeleniumAllureReport\testng.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Task60.CaseStudy2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeBrowserCommands">
+                  </a> <!-- chromeBrowserCommands -->
+                  <span class="method-name">chromeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edgeBrowserCommands">
+                  </a> <!-- edgeBrowserCommands -->
+                  <span class="method-name">edgeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firefoxBrowserCommands">
+                  </a> <!-- firefoxBrowserCommands -->
+                  <span class="method-name">firefoxBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Task70Assure.BrowserCommands</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EdgeTest">
+                  </a> <!-- EdgeTest -->
+                  <span class="method-name">EdgeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirefoxTest">
+                  </a> <!-- FirefoxTest -->
+                  <span class="method-name">FirefoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeTest">
+                  </a> <!-- chromeTest -->
+                  <span class="method-name">chromeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Task60.CaseStudy3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeBrowserCommands">
+                  </a> <!-- chromeBrowserCommands -->
+                  <span class="method-name">chromeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edgeBrowserCommands">
+                  </a> <!-- edgeBrowserCommands -->
+                  <span class="method-name">edgeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firefoxBrowserCommands">
+                  </a> <!-- firefoxBrowserCommands -->
+                  <span class="method-name">firefoxBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Task60.CaseStudy4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeBrowserCommands">
+                  </a> <!-- chromeBrowserCommands -->
+                  <span class="method-name">chromeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edgeBrowserCommands">
+                  </a> <!-- edgeBrowserCommands -->
+                  <span class="method-name">edgeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firefoxBrowserCommands">
+                  </a> <!-- firefoxBrowserCommands -->
+                  <span class="method-name">firefoxBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WebdriverrComment.Browsercommands</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EdgeBrowserTest">
+                  </a> <!-- EdgeBrowserTest -->
+                  <span class="method-name">EdgeBrowserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirefoxBrowserTest">
+                  </a> <!-- FirefoxBrowserTest -->
+                  <span class="method-name">FirefoxBrowserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromebrowsertest">
+                  </a> <!-- chromebrowsertest -->
+                  <span class="method-name">chromebrowsertest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Task60.WebBrowserTest_LocatorId</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeBrowserCommands">
+                  </a> <!-- chromeBrowserCommands -->
+                  <span class="method-name">chromeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edgeBrowserCommands">
+                  </a> <!-- edgeBrowserCommands -->
+                  <span class="method-name">edgeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firefoxBrowserCommands">
+                  </a> <!-- firefoxBrowserCommands -->
+                  <span class="method-name">firefoxBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WebdriverrComment.CheckExpectedValue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChromeBrowserTest">
+                  </a> <!-- ChromeBrowserTest -->
+                  <span class="method-name">ChromeBrowserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EdgeBrowserTest">
+                  </a> <!-- EdgeBrowserTest -->
+                  <span class="method-name">EdgeBrowserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirefoxBrowserTest">
+                  </a> <!-- FirefoxBrowserTest -->
+                  <span class="method-name">FirefoxBrowserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Task70Assure.SetSizeAndPositionOfWindow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EdgeBrowserCommands">
+                  </a> <!-- EdgeBrowserCommands -->
+                  <span class="method-name">EdgeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirefoxBrowserCommands">
+                  </a> <!-- FirefoxBrowserCommands -->
+                  <span class="method-name">FirefoxBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeBrowserCommands">
+                  </a> <!-- chromeBrowserCommands -->
+                  <span class="method-name">chromeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WebdriverrComment.BrowserComment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChromeBrowserTest">
+                  </a> <!-- ChromeBrowserTest -->
+                  <span class="method-name">ChromeBrowserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Task60.CaseStudy5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeBrowserCommands">
+                  </a> <!-- chromeBrowserCommands -->
+                  <span class="method-name">chromeBrowserCommands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Coforge Seleninium automation testiong\SeleniumAllureReport\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Task70Assure.SetSizeAndPositionOfWindow&quot;/&gt;
+      &lt;class name=&quot;WebdriverrComment.Browsercommands&quot;/&gt;
+      &lt;class name=&quot;WebdriverrComment.CheckExpectedValue&quot;/&gt;
+      &lt;class name=&quot;com.Task60.WebBrowserTest_LocatorId&quot;/&gt;
+      &lt;class name=&quot;com.Task60.CaseStudy3&quot;/&gt;
+      &lt;class name=&quot;com.Task60.CaseStudy4&quot;/&gt;
+      &lt;class name=&quot;com.Task60.CaseStudy2&quot;/&gt;
+      &lt;class name=&quot;com.Task60.CaseStudy7&quot;/&gt;
+      &lt;class name=&quot;com.Task60.CaseStudy8&quot;/&gt;
+      &lt;class name=&quot;com.Task60.CaseStudy5&quot;/&gt;
+      &lt;class name=&quot;com.Task60.CaseStudy6&quot;/&gt;
+      &lt;class name=&quot;WebdriverrComment.BrowserComment&quot;/&gt;
+      &lt;class name=&quot;Task70Assure.BrowserCommands&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EdgeTest')
+data.setCell(0, 2, 'Task70Assure.BrowserCommands')
+data.setCell(0, 3, 50400);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'chromeTest')
+data.setCell(1, 2, 'Task70Assure.BrowserCommands')
+data.setCell(1, 3, 23190);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FirefoxTest')
+data.setCell(2, 2, 'Task70Assure.BrowserCommands')
+data.setCell(2, 3, 21992);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'chromeBrowserCommands')
+data.setCell(3, 2, 'com.Task60.CaseStudy3')
+data.setCell(3, 3, 15218);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'firefoxBrowserCommands')
+data.setCell(4, 2, 'com.Task60.CaseStudy3')
+data.setCell(4, 3, 13894);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'firefoxBrowserCommands')
+data.setCell(5, 2, 'com.Task60.CaseStudy2')
+data.setCell(5, 3, 13520);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'edgeBrowserCommands')
+data.setCell(6, 2, 'com.Task60.CaseStudy2')
+data.setCell(6, 3, 11502);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'edgeBrowserCommands')
+data.setCell(7, 2, 'com.Task60.CaseStudy3')
+data.setCell(7, 3, 9047);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'chromeBrowserCommands')
+data.setCell(8, 2, 'com.Task60.CaseStudy2')
+data.setCell(8, 3, 8975);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FirefoxBrowserTest')
+data.setCell(9, 2, 'WebdriverrComment.CheckExpectedValue')
+data.setCell(9, 3, 6128);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'FirefoxBrowserTest')
+data.setCell(10, 2, 'WebdriverrComment.Browsercommands')
+data.setCell(10, 3, 6115);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'firefoxBrowserCommands')
+data.setCell(11, 2, 'com.Task60.WebBrowserTest_LocatorId')
+data.setCell(11, 3, 5628);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'firefoxBrowserCommands')
+data.setCell(12, 2, 'com.Task60.CaseStudy4')
+data.setCell(12, 3, 5329);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'EdgeBrowserTest')
+data.setCell(13, 2, 'WebdriverrComment.Browsercommands')
+data.setCell(13, 3, 5065);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'FirefoxBrowserCommands')
+data.setCell(14, 2, 'Task70Assure.SetSizeAndPositionOfWindow')
+data.setCell(14, 3, 4333);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ChromeBrowserTest')
+data.setCell(15, 2, 'WebdriverrComment.BrowserComment')
+data.setCell(15, 3, 4070);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'chromeBrowserCommands')
+data.setCell(16, 2, 'com.Task60.CaseStudy5')
+data.setCell(16, 3, 3717);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'edgeBrowserCommands')
+data.setCell(17, 2, 'com.Task60.WebBrowserTest_LocatorId')
+data.setCell(17, 3, 3700);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'EdgeBrowserCommands')
+data.setCell(18, 2, 'Task70Assure.SetSizeAndPositionOfWindow')
+data.setCell(18, 3, 3327);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'chromeBrowserCommands')
+data.setCell(19, 2, 'com.Task60.WebBrowserTest_LocatorId')
+data.setCell(19, 3, 3173);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'edgeBrowserCommands')
+data.setCell(20, 2, 'com.Task60.CaseStudy4')
+data.setCell(20, 3, 3035);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'chromebrowsertest')
+data.setCell(21, 2, 'WebdriverrComment.Browsercommands')
+data.setCell(21, 3, 2875);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'chromeBrowserCommands')
+data.setCell(22, 2, 'com.Task60.CaseStudy4')
+data.setCell(22, 3, 2567);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'EdgeBrowserTest')
+data.setCell(23, 2, 'WebdriverrComment.CheckExpectedValue')
+data.setCell(23, 3, 2562);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'headlessBrowserCommands')
+data.setCell(24, 2, 'com.Task60.CaseStudy7')
+data.setCell(24, 3, 2520);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'chromeBrowserCommands')
+data.setCell(25, 2, 'Task70Assure.SetSizeAndPositionOfWindow')
+data.setCell(25, 3, 2381);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'ChromeBrowserTest')
+data.setCell(26, 2, 'WebdriverrComment.CheckExpectedValue')
+data.setCell(26, 3, 2217);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'chromeBrowserCommands')
+data.setCell(27, 2, 'com.Task60.CaseStudy6')
+data.setCell(27, 3, 1523);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'openCartTest')
+data.setCell(28, 2, 'com.Task60.CaseStudy8')
+data.setCell(28, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Task70Assure.SetSizeAndPositionOfWindow</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">EdgeBrowserCommands</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FirefoxBrowserCommands</span>
+                <span class="method-start">3381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chromeBrowserCommands</span>
+                <span class="method-start">7748 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WebdriverrComment.Browsercommands</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">EdgeBrowserTest</span>
+                <span class="method-start">10132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FirefoxBrowserTest</span>
+                <span class="method-start">15199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chromebrowsertest</span>
+                <span class="method-start">21316 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WebdriverrComment.CheckExpectedValue</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ChromeBrowserTest</span>
+                <span class="method-start">24194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EdgeBrowserTest</span>
+                <span class="method-start">26413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FirefoxBrowserTest</span>
+                <span class="method-start">28978 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Task60.WebBrowserTest_LocatorId</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chromeBrowserCommands</span>
+                <span class="method-start">35108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edgeBrowserCommands</span>
+                <span class="method-start">38284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firefoxBrowserCommands</span>
+                <span class="method-start">41986 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Task60.CaseStudy3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chromeBrowserCommands</span>
+                <span class="method-start">47616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edgeBrowserCommands</span>
+                <span class="method-start">62836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firefoxBrowserCommands</span>
+                <span class="method-start">71886 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Task60.CaseStudy4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chromeBrowserCommands</span>
+                <span class="method-start">85782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edgeBrowserCommands</span>
+                <span class="method-start">88352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firefoxBrowserCommands</span>
+                <span class="method-start">91388 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Task60.CaseStudy2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chromeBrowserCommands</span>
+                <span class="method-start">96730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edgeBrowserCommands</span>
+                <span class="method-start">105707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firefoxBrowserCommands</span>
+                <span class="method-start">117213 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Task60.CaseStudy7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">headlessBrowserCommands</span>
+                <span class="method-start">130735 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Task60.CaseStudy8</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openCartTest</span>
+                <span class="method-start">133272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">133276 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Task60.CaseStudy5</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chromeBrowserCommands</span>
+                <span class="method-start">133285 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Task60.CaseStudy6</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">chromeBrowserCommands</span>
+                <span class="method-start">137005 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WebdriverrComment.BrowserComment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ChromeBrowserTest</span>
+                <span class="method-start">138528 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Task70Assure.BrowserCommands</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">EdgeTest</span>
+                <span class="method-start">142601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FirefoxTest</span>
+                <span class="method-start">193001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chromeTest</span>
+                <span class="method-start">214993 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

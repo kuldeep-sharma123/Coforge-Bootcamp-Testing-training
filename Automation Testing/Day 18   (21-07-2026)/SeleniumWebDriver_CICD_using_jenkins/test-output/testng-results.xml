@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-20T16:53:18 IST" name="Default suite" finished-at="2026-07-20T16:53:50 IST" duration-ms="32155">
+    <groups>
+    </groups>
+    <test started-at="2026-07-20T16:53:18 IST" name="Default test" finished-at="2026-07-20T16:53:50 IST" duration-ms="32155">
+      <class name="com.jenkinsCICDDemoTest.jenkinsCICDTest">
+        <test-method signature="chromeBrowserCommands()[pri:0, instance:com.jenkinsCICDDemoTest.jenkinsCICDTest@5c7bfdc1]" started-at="2026-07-20T16:53:18 IST" name="chromeBrowserCommands" finished-at="2026-07-20T16:53:28 IST" duration-ms="10619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeBrowserCommands -->
+        <test-method signature="firefoxBrowserCommands()[pri:1, instance:com.jenkinsCICDDemoTest.jenkinsCICDTest@5c7bfdc1]" started-at="2026-07-20T16:53:28 IST" name="firefoxBrowserCommands" finished-at="2026-07-20T16:53:41 IST" duration-ms="12163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxBrowserCommands -->
+        <test-method signature="edgeBrowserCommands()[pri:2, instance:com.jenkinsCICDDemoTest.jenkinsCICDTest@5c7bfdc1]" started-at="2026-07-20T16:53:41 IST" name="edgeBrowserCommands" finished-at="2026-07-20T16:53:50 IST" duration-ms="9291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgeBrowserCommands -->
+      </class> <!-- com.jenkinsCICDDemoTest.jenkinsCICDTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,106 @@
+line 6 column 3 - Warning: <meta> lacks "content" attribute
+line 11 column 3 - Warning: unknown attribute "sizes"
+line 12 column 3 - Warning: unknown attribute "sizes"
+line 18 column 3 - Warning: <link> lacks "type" attribute
+line 19 column 3 - Warning: <link> lacks "type" attribute
+line 22 column 3 - Warning: <style> lacks "type" attribute
+line 509 column 3 - Warning: unknown attribute "aria-hidden"
+line 509 column 3 - Warning: unknown attribute "aria-labelledby"
+line 509 column 3 - Warning: unknown attribute "role"
+line 509 column 3 - Warning: <div> attribute "tabindex" has invalid value "-1"
+line 511 column 5 - Warning: unknown attribute "role"
+line 515 column 11 - Warning: unknown attribute "aria-label"
+line 515 column 11 - Warning: unknown attribute "data-dismiss"
+line 516 column 14 - Warning: unknown attribute "aria-hidden"
+line 520 column 11 - Warning: <form> lacks "action" attribute
+line 536 column 11 - Warning: unknown attribute "data-dismiss"
+line 547 column 3 - Warning: unknown attribute "aria-hidden"
+line 547 column 3 - Warning: unknown attribute "aria-labelledby"
+line 547 column 3 - Warning: unknown attribute "role"
+line 547 column 3 - Warning: <div> attribute "tabindex" has invalid value "-1"
+line 549 column 5 - Warning: unknown attribute "role"
+line 553 column 11 - Warning: unknown attribute "aria-label"
+line 553 column 11 - Warning: unknown attribute "data-dismiss"
+line 554 column 14 - Warning: unknown attribute "aria-hidden"
+line 558 column 11 - Warning: <form> lacks "action" attribute
+line 573 column 11 - Warning: unknown attribute "data-dismiss"
+line 582 column 3 - Warning: unknown attribute "aria-hidden"
+line 582 column 3 - Warning: unknown attribute "aria-labelledby"
+line 582 column 3 - Warning: unknown attribute "role"
+line 582 column 3 - Warning: <div> attribute "tabindex" has invalid value "-1"
+line 584 column 5 - Warning: unknown attribute "role"
+line 588 column 11 - Warning: unknown attribute "aria-label"
+line 588 column 11 - Warning: unknown attribute "data-dismiss"
+line 589 column 14 - Warning: unknown attribute "aria-hidden"
+line 593 column 11 - Warning: <form> lacks "action" attribute
+line 608 column 11 - Warning: unknown attribute "data-dismiss"
+line 617 column 3 - Warning: unknown attribute "aria-hidden"
+line 617 column 3 - Warning: unknown attribute "aria-labelledby"
+line 617 column 3 - Warning: unknown attribute "role"
+line 617 column 3 - Warning: <div> attribute "tabindex" has invalid value "-1"
+line 619 column 5 - Warning: unknown attribute "role"
+line 622 column 11 - Warning: <h5> Anchor "logInModalLabel" already defined
+line 623 column 11 - Warning: unknown attribute "aria-label"
+line 623 column 11 - Warning: unknown attribute "data-dismiss"
+line 624 column 14 - Warning: unknown attribute "aria-hidden"
+line 628 column 11 - Warning: <form> lacks "action" attribute
+line 630 column 15 - Error: <video> is not recognized!
+line 630 column 15 - Warning: discarding unexpected <video>
+line 631 column 11 - Warning: discarding unexpected </video>
+line 632 column 9 - Warning: trimming empty <div>
+line 633 column 7 - Warning: trimming empty <form>
+line 634 column 5 - Warning: trimming empty <div>
+line 636 column 11 - Warning: unknown attribute "data-dismiss"
+line 643 column 3 - Error: <nav> is not recognized!
+line 643 column 3 - Warning: discarding unexpected <nav>
+line 644 column 5 - Warning: unknown attribute "aria-label"
+line 644 column 5 - Warning: unknown attribute "aria-expanded"
+line 644 column 5 - Warning: unknown attribute "aria-controls"
+line 644 column 5 - Warning: unknown attribute "data-target"
+line 644 column 5 - Warning: unknown attribute "data-toggle"
+line 646 column 37 - Warning: trimming empty <span>
+line 647 column 5 - Warning: trimming empty <button>
+line 649 column 59 - Warning: <img> lacks "alt" attribute
+line 657 column 13 - Warning: unknown attribute "data-target"
+line 657 column 13 - Warning: unknown attribute "data-toggle"
+line 660 column 13 - Warning: unknown attribute "data-target"
+line 660 column 13 - Warning: unknown attribute "data-toggle"
+line 666 column 13 - Warning: unknown attribute "data-target"
+line 666 column 13 - Warning: unknown attribute "data-toggle"
+line 675 column 13 - Warning: unknown attribute "data-target"
+line 675 column 13 - Warning: unknown attribute "data-toggle"
+line 679 column -1 - Warning: discarding unexpected </nav>
+line 690 column 15 - Warning: unknown attribute "data-slide-to"
+line 690 column 15 - Warning: unknown attribute "data-target"
+line 690 column 70 - Warning: trimming empty <li>
+line 691 column 15 - Warning: unknown attribute "data-slide-to"
+line 691 column 15 - Warning: unknown attribute "data-target"
+line 691 column 76 - Warning: trimming empty <li>
+line 692 column 15 - Warning: unknown attribute "data-slide-to"
+line 692 column 15 - Warning: unknown attribute "data-target"
+line 692 column 70 - Warning: trimming empty <li>
+line 693 column 9 - Warning: trimming empty <ol>
+line 696 column 13 - Warning: unknown attribute "data-slide"
+line 697 column 14 - Warning: unknown attribute "data-slide"
+line 707 column 3 - Warning: <script> lacks "type" attribute
+line 708 column 3 - Warning: <script> lacks "type" attribute
+line 709 column 3 - Warning: <script> lacks "type" attribute
+line 710 column 3 - Warning: <script> lacks "type" attribute
+line 711 column 3 - Warning: <script> lacks "type" attribute
+line 738 column 17 - Warning: <img> lacks "alt" attribute
+line 745 column 5 - Error: <footer> is not recognized!
+line 745 column 5 - Warning: discarding unexpected <footer>
+line 747 column 1 - Warning: discarding unexpected </footer>
+InputStream: Doctype given is ""
+InputStream: Document content looks like HTML 4.01 Transitional
+90 warnings, 3 errors were found!
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+For further advice on how to make your pages accessible
+see "http://www.w3.org/WAI/GL". You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.

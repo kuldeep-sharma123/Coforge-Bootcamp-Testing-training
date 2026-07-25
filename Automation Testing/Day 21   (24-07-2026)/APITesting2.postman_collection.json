@@ -1,0 +1,582 @@
+{
+  "info": {
+    "_postman_id": "fa2950cb-bb76-4e3e-b9f9-06be0d59a983",
+    "name": "API Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56868159",
+    "_collection_link": "https://go.postman.co/collection/56868159-fa2950cb-bb76-4e3e-b9f9-06be0d59a983?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get Request Method",
+      "item": [
+        {
+          "name": "GET request json placeholder",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/comments?postId=1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "comments"
+              ],
+              "query": [
+                {
+                  "key": "postId",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request restful example",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.restful-api.dev/objects",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restful-api",
+                "dev"
+              ],
+              "path": [
+                "objects"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request restful example Copy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.restful-api.dev/objects",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restful-api",
+                "dev"
+              ],
+              "path": [
+                "objects"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request restful example Copy 2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.restful-api.dev/objects",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restful-api",
+                "dev"
+              ],
+              "path": [
+                "objects"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET request Regres",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.restful-api.dev/objects",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restful-api",
+                "dev"
+              ],
+              "path": [
+                "objects"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Post Request method",
+      "item": [
+        {
+          "name": "Dummy post request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"status\": \"success\",\r\n    \"data\": {\r\n        \"name\": \"test\",\r\n        \"salary\": \"123\",\r\n        \"age\": \"23\",\r\n        \"id\": 25\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/create",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "json placholder post request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "\r\n  {\r\n    \"userId\": 1,\r\n    \"id\": 1,\r\n    \"title\": \"Bootcamp testing\",\r\n    \"body\": \"API testing\"\r\n  }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Reqbin post request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"Id\": 12345,\r\n  \"Customer\": \"John Smith\",\r\n  \"Quantity\": 1,\r\n  \"Price\": 10.00\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqbin.com/echo/post/json",
+              "protocol": "https",
+              "host": [
+                "reqbin",
+                "com"
+              ],
+              "path": [
+                "echo",
+                "post",
+                "json"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Reqbin 2 post request 1",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "html"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqbin.com/echo/post/form",
+              "protocol": "https",
+              "host": [
+                "reqbin",
+                "com"
+              ],
+              "path": [
+                "echo",
+                "post",
+                "form"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Reqbin 2 post request 2",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "html"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqbin.com/echo/post/form",
+              "protocol": "https",
+              "host": [
+                "reqbin",
+                "com"
+              ],
+              "path": [
+                "echo",
+                "post",
+                "form"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Put request method",
+      "item": [
+        {
+          "name": "Json put request",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"userId\": 1,\r\n  \"id\": 1,\r\n  \"title\": \"PUT API testing\",\r\n  \"body\": \"Postman teting\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Json put request 2",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"userId\": 1,\r\n  \"id\": 1,\r\n  \"title\": \"PUT API testing\",\r\n  \"body\": \"Postman teting\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Json put request 3",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"userId\": 1,\r\n  \"id\": 1,\r\n  \"title\": \"PUT API testing\",\r\n  \"body\": \"Postman teting\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Json put request 4",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"userId\": 1,\r\n  \"id\": 1,\r\n  \"title\": \"PUT API testing\",\r\n  \"body\": \"Postman teting\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Json put request 5",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"userId\": 1,\r\n  \"id\": 1,\r\n  \"title\": \"PUT API testing\",\r\n  \"body\": \"Postman teting\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Delete Request method",
+      "item": [
+        {
+          "name": "json delete request",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\r\n    \"userId\": 1,\r\n    \"id\": 1,\r\n    \"title\": \"Bootcamp testing\",\r\n    \"body\": \"API testing\"\r\n  }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "json delete request 2",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\r\n    \"userId\": 1,\r\n    \"id\": 1,\r\n    \"title\": \"Bootcamp testing\",\r\n    \"body\": \"API testing\"\r\n  }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "json delete request 3",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\r\n    \"userId\": 1,\r\n    \"id\": 1,\r\n    \"title\": \"Bootcamp testing\",\r\n    \"body\": \"API testing\"\r\n  }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "json delete request 4",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\r\n    \"userId\": 1,\r\n    \"id\": 1,\r\n    \"title\": \"Bootcamp testing\",\r\n    \"body\": \"API testing\"\r\n  }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "json delete request 5",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\r\n    \"userId\": 1,\r\n    \"id\": 1,\r\n    \"title\": \"Bootcamp testing\",\r\n    \"body\": \"API testing\"\r\n  }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

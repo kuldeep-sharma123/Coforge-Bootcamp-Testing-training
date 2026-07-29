@@ -1,0 +1,1 @@
+{"uuid":"fc6dad43-1d2c-4561-87b1-349a50916a1e","name":"com.Framework.Testcases.LoginOraganHRM","children":["838d295f-23a1-4d49-95ed-45e6f599e5b3"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1785254774379,"stop":1785254774601}],"start":1785254765552,"stop":1785254774604}
